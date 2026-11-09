@@ -1,0 +1,12 @@
+{
+  "name": "nexo-http",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "PWA para consultar una fuente M3U propia y reproducir enlaces HTTP/HLS/MPEG-TS. No incluye listas ni enlaces.",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "test": "node --test",
+    "check": "node --check js/app.js && node --check js/codecs.js && node --check js/parser.js && node --check js/player.js && node --check js/source.js && node --check js/time.js && node --check js/storage.js && node --check js/vlc.js && node --check sw.js && node --check tests/parser.test.js && node --check tests/source.test.js && node --check tests/media.test.js && node --check tests/vlc.test.js"
+  }
+}

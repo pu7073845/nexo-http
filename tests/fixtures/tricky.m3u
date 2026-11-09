@@ -1,0 +1,37 @@
+#=================================
+# 📡 Lista M3U de prueba
+# 🕒 Last Updated: 2026-11-07 07:38:42 AM
+# 📺 Status: Checked
+#==================================
+#EXTM3U
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/1.png",6h00 Equipo Á vs Equipo B 1 SEÑAL 3
+#EXTVLCOPT:http-user-agent=TestUA
+#EXTVLCOPT:http-cookie=mac=00:11:22:33:44:55; stb_lang=en
+#EXTVLCOPT:http-header=Authorization: Bearer TESTTOKEN
+https://example.com/stream/1.m3u8
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/2.png",6h00 Equipo Á vs Equipo B 2 CANAL 5 50FPS
+https://example.com/stream/2.m3u8
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/3.png",19h00 Equipo Ñ vs Equipo 98 1 CANAL 1
+https://example.com/stream/3.m3u8
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/4.png",19h00 Equipo Ñ vs Equipo 98 2 CANAL 1 4K
+https://example.com/stream/4.m3u8
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/5.png",19h30 EQUIPO C vs EQUIPO D 2 CANAL 1 🇵🇹
+https://example.com/stream/5.m3u8
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/6.png",21h30 Equipo 05 vs Equipo E 1 CANAL 2
+https://example.com/stream/6.m3u8
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/7.png",23h30 Equipo F vs Equipo G 1 SEÑAL TV
+https://example.com/stream/7.m3u8
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/8.png",0h00 Equipo H vs Equipo I 1 SEÑAL 1
+https://example.com/stream/8.m3u8
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/9.png",3h00 Equipo J vs Equipo K 5 CANAL 2 🇩🇪
+https://example.com/stream/9.m3u8
+#EXTINF:-1 group-title="Directos" tvg-logo="https://example.com/10.png",Thanks for upload test-list!
+https://example.com/stream/10.m3u8
+#EXTINF:-1 group-title="General" tvg-logo="https://example.com/11.png",CANAL NOTICIAS
+#EXTVLCOPT:http-user-agent=FixtureUA
+#EXTVLCOPT:http-referrer=https://example.com/ref
+https://example.com/stream/11.m3u8
+#EXTINF:-1 group-title="General" tvg-logo="https://example.com/12.png",CANAL 2 🇨🇿
+https://example.com/stream/12.m3u8
+#EXTINF:-1 group-title="4K" tvg-logo="https://example.com/13.png",CANAL 3 4K 🇵🇱
+https://example.com/stream/13.m3u8

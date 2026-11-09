@@ -1,0 +1,5 @@
+/android/
+/dist/
+/backups/
+.DS_Store
+node_modules/
